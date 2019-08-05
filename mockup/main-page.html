@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SMS Reminder - Your truly assistant</title>
+    <!-- Main CSS -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Animate.css CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+</head>
+
+<body>
+    <div class="main-box main-box--centered d-flex flex-column animated fadeInLeft">
+        <!-- Navigation bar -->
+        <div class="navig-bar navig-bar--justify-between pd-left pd-right d-flex flex-row">
+            <div>
+                <h2 class="navig-bar__centered-child">SMS Reminder</h2>
+            </div>
+
+            <div>
+                <a href="#" class="btn btn-success navig-bar__centered-child">
+                    <i class="fa fa-bookmark"></i><strong>Saved</strong>
+                </a>
+            </div>
+        </div>
+
+        <!-- Main content -->
+        <div class="d-flex flex-column form-group">
+            <!-- Short Description -->
+            <div class="d-flex flex-column pd-left pd-right content-box">
+                <div>
+                    <h6>Short description:</h6>
+                </div>
+
+                <div>
+                    <textarea name="shortDes" class="form-control textarea--no-resize" rows="6" maxlength="100"
+                        required></textarea>
+                </div>
+            </div>
+
+            <!-- Date -->
+            <div class="d-flex flex-column pd-left pd-right content-box">
+                <div>
+                    <h6>Date:</h6>
+                </div>
+
+                <div>
+                    <input name="dateAndTime" type="datetime-local" class="form-control" min="2019-07-15T00:00"
+                        value="2019-07-15T00:00" required>
+                </div>
+            </div>
+
+            <!-- Add button -->
+            <div class="d-flex flex-column pd-left pd-right content-box">
+                <button class="btn btn-info btn-block">Add</button>
+            </div>
+
+            <!-- Confirmation message -->
+            <div class="d-flex flex-column pd-left pd-right content-box">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

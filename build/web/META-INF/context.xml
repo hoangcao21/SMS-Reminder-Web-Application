@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/SMSReminder">
+    <Environment name="contextPath" value="/SMSReminder" type="java.lang.String" /> 
+    <Environment name="imagePath" value="/SMSReminder/images" type="java.lang.String" />
+    
+    <Environment name="userName" value="sa" type="java.lang.String" /> 
+    <Environment name="password" value="123456" type="java.lang.String" />  
+    <Environment name="serverName" value="localhost" type="java.lang.String" /> 
+    <Environment name="dbName" value="SMSReminder" type="java.lang.String" /> 
+    <Environment name="portNumber" value="1433" type="java.lang.String" />
+</Context>

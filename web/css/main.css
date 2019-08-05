@@ -1,0 +1,95 @@
+@charset "UTF-8";
+body {
+    background-image: url("/SMSReminder/images/background.png");
+    background-size: cover;
+}
+
+.main-box {
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    border: 4px black;
+    background-color: lightgray;
+    box-shadow: 10px 11px 15px -6px rgba(0, 0, 0, 0.75);
+}
+
+.main-box--centered {
+    /* Dịch phần tử theo trục Y */
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navig-bar {
+    width: 450px;
+    height: 76px;
+    border-bottom: 3px solid black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
+.navig-bar--justify-between {
+    justify-content: space-between;
+}
+
+.navig-bar__centered-child {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.textarea--no-resize {
+    resize: none;
+}
+
+.btn strong {
+    padding-left: 10px;
+}
+
+.content-box {
+    margin-top: 45px;
+}
+
+.pd-left {
+    padding-left: 20px;
+}
+
+.pd-right {
+    padding-right: 20px;
+}
+
+.reminder-title h6 {
+    margin-top: 7px;
+}
+
+.reminder-title p {
+    color: red;
+    font-weight: 700;
+}
+
+.note {
+    margin-top: 20px;
+}
+
+.reminder-happen-box {
+    width: 275px;
+}
+
+.btn-delete--mr-left {
+    margin-left: 10px;
+}
+
+.sms-reminder-box {
+    padding-top: 20px;
+}
+
+.center-error {
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+form {
+    width: 100%;
+}

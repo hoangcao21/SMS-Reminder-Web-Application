@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>SMS Reminder - Your truly assistant</title>
+  <!-- Main CSS -->
+  <link href="css/main.css" rel="stylesheet">
+  <!-- Boostrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Animate.css CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+</head>
+
+<body>
+
+  <div id="content-goes">
+    New content goes here
+  </div>
+
+  <button onclick="myFunction()">Load new document</button>
+
+  <script>
+    function myFunction() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        console.log("readyState = " + xhttp.readyState
+        + ", status = " + xhttp.status);
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("content-goes").innerHTML
+            = this.responseText;
+        }
+      };
+      xhttp.open("GET", "test.txt", true);
+      xhttp.send();
+    }
+  </script>
+
+</body>
+
+</html>
