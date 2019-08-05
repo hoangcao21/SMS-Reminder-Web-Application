@@ -26,7 +26,7 @@ Some images to demonstrate the GUI of the application.
 
 ![](https://i.imgur.com/rq17Lx8.png)
 
-![](https://i.imgur.com/DPvUQS2.jpg)
+<img src="https://i.imgur.com/DPvUQS2.jpg" width="500">
 
 ## Getting Started
 
@@ -55,7 +55,7 @@ Bootbox.js 5.2.0 (important)
 Also, you need an demo Nexmo account to get ```KEY``` and ```VALUE``` and a test phone number to receive the message.
 
 ## Deployment
-Open Netbeans IDE, open the project and run the ```top-pages.jsp``` located at ```web\pages``` folder.
+Open Netbeans IDE, open the project and click the GREEN forward arrow :arrow_forward: to build and run the application.
 
 ## Built With
 
