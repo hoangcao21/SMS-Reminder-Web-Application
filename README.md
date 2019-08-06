@@ -4,7 +4,7 @@ This is a web application using Nexmo API to send SMS reminder for the user.
 
 This application stimulates how one user could use this app to set 3 allowed SMS reminders to be sent to his phone when criterias satisfy.
 
-This application uses AJAX, pure JavaScript, Twitter Boostrap framework, Bootbox.js, Animate.css.
+This application uses basic AJAX, JavaScript, Twitter Boostrap framework, Bootbox.js, Animate.css.
 
 This is the mockup for the application.
 
